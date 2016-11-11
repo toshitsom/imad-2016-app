@@ -1,0 +1,66 @@
+body {
+    background-image: url(V14jsn.png);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    padding-right: 0px;
+}
+
+.anchor {
+    color: black;
+    text-decoration: none;
+}
+
+#header {
+    background-color: sandybrown;
+    height: 80px;
+    margin-left: 0px;
+    width: 100%;
+    margin-top: -10px;
+    opacity: 0.35;
+    padding-top: 20px;
+}
+
+#home {
+    font-family: 'Shrikhand', cursive;
+    font-size: 60 text-align: center;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 50px;
+    width: 70px;
+    position: absolute;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#home:hover {
+    text-decoration: underline overline;
+}
+
+#heading {
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+    margin-left: 500px;
+    margin-top: 0px;
+    color: darkblue;
+}
+
+#heading:hover {
+    text-decoration: underline overline;
+    font-size: 65px;
+}
+
+#list {
+    background-color: brown;
+    height: 95%;
+    margin-left: 0px;
+    width: 250px;
+    margin-top: 0px;
+    opacity: 0.35;
+    padding-top: 0px;
+}
