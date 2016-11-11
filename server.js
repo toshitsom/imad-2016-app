@@ -33,7 +33,7 @@ function createTemplate (data) {
 
 <head>
     <title>Articles</title>
-    <link rel="stylesheet" type="text/css" href="blogstyle.css">
+    <link rel="stylesheet" type="text/css" href="ui/blogstyle.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Shrikhand" rel="stylesheet">
 </head>
 
