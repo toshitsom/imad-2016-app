@@ -12,6 +12,10 @@ body {
     color: black;
     text-decoration: none;
 }
+.listanchor{
+    color: black;
+    font-size: 18px;
+}
 
 #header {
     background-color: sandybrown;
