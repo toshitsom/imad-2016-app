@@ -15,7 +15,6 @@
     list-style-type: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
-    text-decoration: underline;
 }
 
 .nav {
@@ -24,7 +23,7 @@
 }
 
 .nav:hover {
-    text-decoration: overline;
+    text-decoration: underline overline;
     font-size: 60px;
 }
 
