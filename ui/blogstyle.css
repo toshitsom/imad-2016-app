@@ -25,7 +25,8 @@ body {
 
 #home {
     font-family: 'Shrikhand', cursive;
-    font-size: 60 text-align: center;
+    font-size: 60;
+    text-align: center;
     font-size: 40px;
     margin-left: 20px;
     margin-top: 15px;
