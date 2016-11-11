@@ -65,7 +65,7 @@
     position: absolute;
     text-align: center;
     font-family: sans-serif;
-    font-size: 20;
+    font-size: 20px;
     border-bottom-left-radius: 40px;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
@@ -82,7 +82,7 @@
     position: absolute;
     text-align: center;
     font-family: sans-serif;
-    font-size: 20;
+    font-size: 20px;
     border-bottom-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-right-radius: 60px;
@@ -126,14 +126,14 @@
 
 #loginbtn:hover {
     background-color: linen;
-    font-size: 30;
+    font-size: 30px;
     height: 50px;
     width: 150px;
 }
 
 #registerbtn:hover {
     background-color: linen;
-    font-size: 30;
+    font-size: 30px;
     height: 50px;
     width: 150px;
 }
