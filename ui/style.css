@@ -29,7 +29,7 @@
 }
 
 .container {
-    background-image: url(ui/trees.jpg);
+    background-image: url("/ui/trees.jpg");
     background-size: cover;
     height: 700px;
     width: 101.35%;
@@ -38,7 +38,7 @@
 }
 
 #loginpage {
-    background-image: url(ui/free-brown-background-wallpaper-1.jpg);
+    background-image: url("/ui/free-brown-background-wallpaper-1.jpg");
     background-size: cover;
     height: 700px;
     width: 101.35%;
@@ -47,7 +47,7 @@
 }
 
 #contactpage {
-    background-image: url(ui/Brown-Backgrounds.jpg);
+    background-image: url("/ui/Brown-Backgrounds.jpg");
     background-size: cover;
     height: 700px;
     width: 101.35%;
