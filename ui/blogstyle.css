@@ -85,7 +85,7 @@ body {
 
 #articlebody 
 {
-    position: absolute;
+    /*position: absolute;*/
     margin-left: 252px;
     margin-top: 3px;
     background-color: burlywood;
