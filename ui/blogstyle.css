@@ -1,10 +1,12 @@
 body {
     background-image: url("/ui/V14jsn.png");
     background-size: cover;
+    height: 500%;
     width: 100%;
     background-repeat: no-repeat;
     margin-left: 0px;
     padding-right: 0px;
+    overflow: hidden;
 }
 
 .anchor {
