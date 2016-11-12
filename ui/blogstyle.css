@@ -20,7 +20,10 @@ body {
     font-size: 28px;
     color: blue;
 }
-
+.edit:onclick {
+        font-size: 28px;
+        color: blue;
+}
 #header {
     background-color: sandybrown;
     height: 80px;
