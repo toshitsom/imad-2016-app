@@ -152,7 +152,7 @@ app.get('/check-login', function (req, res) {
 app.get('/logout', function (req, res) {
    delete req.session.auth;
    //res.send('<html><body>Logged out!<br/><br/><a href="/">Back to home</a></body></html>');
-   res.send(href="/");
+   res.send(<https><head><meta http-equiv="Refresh" content="1; url=toshitsom.imad.hasura-app.io/"></head><body><h1>Logged Out!</h3></body></html>);
 });
 
 var pool = new Pool(config);
