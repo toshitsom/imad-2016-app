@@ -20,10 +20,6 @@ body {
     font-size: 28px;
     color: blue;
 }
-.editlist:onclick {
-        font-size: 28px;
-        color: blue;
-}
 #header {
     background-color: sandybrown;
     height: 80px;
