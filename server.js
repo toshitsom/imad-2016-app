@@ -40,7 +40,7 @@ function createTemplate (data) {
 <body>
     <div id="header">
         <span id="home"><a class="anchor" href="/">Home</a></span>
-        <span id="heading"><a href="/ui/myarticle.html">Blog Dynasty</a></span>
+        <span id="heading"><a href="/ui/myarticle.html">Article Valley</a></span>
         <div id=< div id="userinfo">
 
         </div>
