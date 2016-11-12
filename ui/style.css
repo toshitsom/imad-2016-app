@@ -29,10 +29,10 @@
 
 .container {
     background-image: url("/ui/trees.jpg");
-    background-size: contain;
+    background-size: cover;
     height: 700px;
     width: 101.35%;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     margin-left: -10px;
 }
 
