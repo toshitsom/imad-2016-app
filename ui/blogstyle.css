@@ -1,9 +1,8 @@
 body {
     background-image: url("/ui/V14jsn.png");
-    background-repeat: repeat;
+    background-repeat: repeat-y;
     background-size: cover;
     width: 100%;
-    background-repeat: no-repeat;
     margin-left: 0px;
     padding-right: 0px;
 }
