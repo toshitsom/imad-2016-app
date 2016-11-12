@@ -19,6 +19,7 @@ body {
 
 .editlist:hover {
     font-size: 25px;
+    color: blue;
 }
 
 #header {
