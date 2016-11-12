@@ -73,6 +73,7 @@ body {
     opacity: 0.35;
     padding-top: 0px;
     position:absolute;
+    border: solid thick black;
 }
 
 #comment_form
