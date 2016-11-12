@@ -74,7 +74,7 @@ body {
     padding-top: 0px;
 }
 
-#comment_form
+#comments
 {
     margin-top: 30px;
     margin-left: 150px;
@@ -83,5 +83,18 @@ body {
 
 #articlebody 
 {
-    
+    margin-left: 650px;
+    margin-top: 100px;
+    background-color: burlywood;
+    height: 250px;
+    width: 500px;
+    border: solid thin black;
+    position: absolute;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
