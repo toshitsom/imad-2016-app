@@ -20,7 +20,7 @@ body {
     font-size: 28px;
     color: blue;
 }
-.edit:onclick {
+.edit:OnClick {
         font-size: 28px;
         color: blue;
 }
