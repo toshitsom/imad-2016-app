@@ -67,7 +67,6 @@ body {
 
 #list {
     background-color: brown;
-    height: 100%;
     margin-left: 0px;
     width: 250px;
     margin-top: 0px;
@@ -89,7 +88,6 @@ body {
     margin-left: 263px;
     margin-top: 8px;
     background-color: burlywood;
-    height: 100%;
     width: 80%;
     opacity: 0.6;
     text-align: left;
