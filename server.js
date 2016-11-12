@@ -49,7 +49,7 @@ function createTemplate (data) {
     
     </div>
 <div id="articlebody">
-${articlebody}
+abhilash
 <div id="comment_form">
     
 </div>
