@@ -96,6 +96,7 @@ body {
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
     border: solid thin brown;
+    padding-left: 2px;
 }
 #pagezero
 {
