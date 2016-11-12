@@ -103,7 +103,8 @@ body {
 #pagezero
 {
     font-family: 'Inconsolata', monospace; 
-    font-size: 50px;
+    font-size: 40px;
+    color: blue;
     
 }
     
