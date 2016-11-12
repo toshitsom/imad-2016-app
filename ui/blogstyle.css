@@ -83,7 +83,7 @@ body {
 
 
 #articlebody 
-{
+{   
     position: absolute;
     margin-left: 263px;
     margin-top: 8px;
@@ -100,5 +100,10 @@ body {
     border-top-left-radius: 10px;
     border: solid thin brown;
 }
+#pagezero
+{
+    font-family: 'Inconsolata', monospace; 
+    font-size: 80px;
     
 }
+    
