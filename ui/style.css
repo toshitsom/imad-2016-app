@@ -139,7 +139,7 @@
 #aboutme {
     margin-left: 700px;
     margin-top: 10px;
-    /*background-color: burlywood;*/
+    border: solid thin black;
     height: 450px;
     width: 550px;
     position: absolute;
