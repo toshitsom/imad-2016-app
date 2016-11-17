@@ -73,7 +73,7 @@
 
 #contactinfo {
     margin-left: 225px;
-    margin-top: 240px;
+    margin-top: 210px;
     background-color: burlywood;
     height: 300px;
     width: 500px;
@@ -90,9 +90,9 @@
 
 #contactimg {
     margin-left: 820px;
-    margin-top: 265px;
-    height: 250px;
-    width: 250px;
+    margin-top: 210px;
+    height: 300px;
+    width: 300px;
     border: solid thick black;
     border-bottom-left-radius: 30px;
     border-top-right-radius: 30px;
