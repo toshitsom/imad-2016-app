@@ -75,7 +75,7 @@
     margin-left: 225px;
     margin-top: 240px;
     background-color: burlywood;
-    height: 250px;
+    height: 300px;
     width: 500px;
     border: solid thick black;
     position: absolute;
@@ -91,7 +91,7 @@
 #contactimg {
     margin-left: 820px;
     margin-top: 215px;
-    height: 300px;
+    height: 250px;
     width: 250px;
     border: solid thick black;
     border-bottom-left-radius: 30px;
