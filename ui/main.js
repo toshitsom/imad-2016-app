@@ -92,8 +92,8 @@ function loadLoginForm () {
             {
                 if (username[i] == " ") 
                     {
-                        alert("Username cannot contain Spaces!");
                         flag=1;
+                        break;
                     }
             }
         if(flag==1)
@@ -114,7 +114,7 @@ function loadLoginForm () {
                     register.value = 'Registering...';
                 }
             
-    
+    }
     
     };
 }
