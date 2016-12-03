@@ -98,6 +98,7 @@ function loadLoginForm () {
             }
         if(flag==1)
         alert("Username cannot contain spaces");
+        else 
         if(username.length <=5)
         alert("Username must be minimum 5 characters");
         else
@@ -113,7 +114,7 @@ function loadLoginForm () {
                     register.value = 'Registering...';
                 }
             
-        }
+    
     
     };
 }
