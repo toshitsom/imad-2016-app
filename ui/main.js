@@ -100,8 +100,8 @@ function loadLoginForm () {
                 if (username[i] == " ") 
                 {
                     alert("Username cannot contain Spaces!");
-                    break;
                 } 
+            }
                 else 
                 {
                     console.log(username);
@@ -111,7 +111,7 @@ function loadLoginForm () {
                     request.send(JSON.stringify({ username: username, password: password }));
                     register.value = 'Registering...';
                 }
-            }
+            
         }
     
     };
