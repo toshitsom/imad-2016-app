@@ -89,7 +89,8 @@ function loadLoginForm () {
         var password = document.getElementById('password').value;
         //check for minimum req
         for( i=0; i<username.length; i++ )
-        {
+        {   
+            flag=0;
             if (username[i]==" ")
             {  flag=1; break; }
         }
