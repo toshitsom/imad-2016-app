@@ -114,7 +114,7 @@ function loadLoginForm () {
                     register.value = 'Registering...';
                 }
             
-    }
+    
     
     };
 }
