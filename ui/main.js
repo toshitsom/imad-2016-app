@@ -87,12 +87,21 @@ function loadLoginForm () {
         // Make the request
         var username = document.getElementById('username').value;
         var password = document.getElementById('password').value;
+        //check for minimum req
+        if(username.length <=5)
+        alert("Username must be minimum 5 characters");
+        else
+        if(password.length<=5)
+        alert("Password must be minimum 5 characters");
+        else
+       {
         console.log(username);
         console.log(password);
         request.open('POST', '/create-user', true);
         request.setRequestHeader('Content-Type', 'application/json');
         request.send(JSON.stringify({username: username, password: password}));  
         register.value = 'Registering...';
+       }
     
     };
 }
