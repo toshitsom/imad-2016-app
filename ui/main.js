@@ -88,17 +88,6 @@ function loadLoginForm () {
         var username = document.getElementById('username').value;
         var password = document.getElementById('password').value;
         //check for minimum req
-             for (i = 0; i < username.length; i++)
-            {
-                if (username[i] == " ") 
-                    {
-                        flag=1;
-                        break;
-                    }
-            }
-        if(flag==1)
-        alert("Username cannot contain spaces");
-        else 
         if(username.length <=5)
         alert("Username must be minimum 5 characters");
         else
