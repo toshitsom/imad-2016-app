@@ -98,9 +98,7 @@ function loadLoginForm () {
             for (i = 0; i < username.length; i++)
             {
                 if (username[i] == " ") 
-                {
                     alert("Username cannot contain Spaces!");
-                } 
             }
                 else 
                 {
