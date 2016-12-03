@@ -1,3 +1,8 @@
+body {
+    width: 100%;
+    margin: 0px;
+}
+
 #navbar {
     margin-top: -15px;
     margin-left: -8px;
@@ -31,27 +36,24 @@
     background-image: url("/ui/trees.jpg");
     background-size: cover;
     height: 700px;
-    width: 101.35%;
-    background-repeat: no-repeat;
-    margin-left: -10px;
+    width: 100%;
+    background-repeat: repeat;
 }
 
 #loginpage {
     background-image: url("/ui/free-brown-background-wallpaper-1.jpg");
     background-size: cover;
     height: 700px;
-    width: 101.35%;
-    background-repeat: no-repeat;
-    margin-left: -10px;
+    width: 100%;
+    background-repeat: repeat;
 }
 
 #contactpage {
     background-image: url("/ui/Brown-Backgrounds.jpg");
     background-size: cover;
     height: 700px;
-    width: 101.35%;
-    background-repeat: no-repeat;
-    margin-left: -10px;
+    width: 100%;
+    background-repeat: repeat;
 }
 
 #loginwindow {
