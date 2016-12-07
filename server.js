@@ -21,7 +21,6 @@ app.use(session({
     secret: 'someRandomSecretValue',
     cookie: { maxAge: 1000 * 60 * 60 * 24 * 30 }
 }));
-var pool = new Pool(config);
 
 function createTemplate(data) {
     var title = data.title;
@@ -29,48 +28,49 @@ function createTemplate(data) {
     var heading = data.heading;
     var content = data.content;
 
-    var htmlTemplate = `<!DOCTYPE html>
-                         <head>
-          <title>
-        ${title} </title>
+    var htmlTemplate = `
+    <html>
+
+<head>
+    <title>Articles</title>
     <link rel="stylesheet" type="text/css" href="/ui/blogstyle.css">
-    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Shrikhand" rel="stylesheet">
 </head>
+
 <body>
     <div id="header">
         <span id="home"><a class="anchor" href="/">Home</a></span>
-        <span id="myblog">Vikshipt's Blog</span>
-       <span  style="margin-left:45%; font-size:20px; font-family: 'Architects Daughter', cursive;" id="userinfo">
-            <strong> Hi Guest !</strong>
-        </span>
-    </div>
-    <div id="articlelist">
-    </div>
-    <div id="dycontent">
-    <div id="maintext">
-        ${content}
-   
+        <span id="heading"><a href="/ui/myarticle.html">Article Valley</a></span>
+        <div id=< div id="userinfo">
+
         </div>
-        <div id="comment_form">
-          
     </div>
-    <div id="comments">
-    <br> <span style="font-size:26px"><strong>Comments</strong></span><br>
-      Loading Comments....
-    </div>
-    </div>
+    <div id="list">
     
+    </div>
+<div id="articlebody">
+${content}
+<div id="comment_form">
+    
+</div>
+<div id="comments">
+    
+</div>
+</div>
 <script type="text/javascript" src="/ui/article.js"></script>
 </body>
-</html> `;
+
+</html>
+          
+      
+    `;
     return htmlTemplate;
 }
 
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+
 
 function hash(input, salt) {
     // How do we create a hash?
@@ -85,7 +85,9 @@ app.get('/hash/:input', function(req, res) {
 });
 
 app.post('/create-user', function(req, res) {
-
+    // username, password
+    // {"username": "tanmai", "password": "password"}
+    // JSON
     var username = req.body.username;
     var password = req.body.password;
     var salt = crypto.randomBytes(128).toString('hex');
@@ -152,7 +154,7 @@ app.get('/logout', function(req, res) {
     res.send('<http><head><meta http-equiv="Refresh" content="1; /"><h1>Logged Out</h1></head>');
 });
 
-
+var pool = new Pool(config);
 
 app.get('/get-articles', function(req, res) {
     // make a select request
@@ -197,7 +199,7 @@ app.post('/submit-comment/:articleName', function(req, res) {
                             if (err) {
                                 res.status(500).send(err.toString());
                             } else {
-                                res.status(200).send('Comment inserted!');
+                                res.status(200).send('Comment inserted!')
                             }
                         });
                 }
@@ -209,7 +211,7 @@ app.post('/submit-comment/:articleName', function(req, res) {
 });
 
 app.get('/articles/:articleName', function(req, res) {
-    // SELECT * FROM article WHERE title = '\'; DELETE WHERE a = \'asdf'
+
     pool.query("SELECT * FROM article WHERE title = $1", [req.params.articleName], function(err, result) {
         if (err) {
             res.status(500).send(err.toString());
@@ -223,7 +225,6 @@ app.get('/articles/:articleName', function(req, res) {
         }
     });
 });
-
 
 app.get('/ui/:fileName', function(req, res) {
     res.sendFile(path.join(__dirname, 'ui', req.params.fileName));
